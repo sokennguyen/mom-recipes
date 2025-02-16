@@ -1,9 +1,13 @@
 ---
 date: 2025-02-10
-title: A Distraction-free Setup
+title: Test Recipe
 description: throw away your tv
 tags:
   - post
+content: test content
+links:
+  - title: test title
+    url: https://example.com
 ---
 ## Distractions are the enemy
 A computer's primary purpose is to ease the creation, storage, and transmission of information. Any other functionalities are distractions from this core purpose.
