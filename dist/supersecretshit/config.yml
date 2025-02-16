@@ -1,0 +1,24 @@
+---
+backend:
+  name: git-gateway
+  repo: sokennguyen/nskien.xyz
+  branch: main
+media_folder: "/src/img"
+public_folder: "/posts"
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "/src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "YYYY-MM-DD" # e.g. 24.12.2021
+        time_format: false
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - {label: "Body", name: "body", widget: "markdown"}

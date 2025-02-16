@@ -1,0 +1,10 @@
+<p>process of creating a SSG blog with CMS:</p>
+<p>SSG: 11ty:</p>
+<p>CMS:  strapi</p>
+<ul>
+<li>Strapi requires old version of Node (active LTS versions - either 18.x or 20.x) =&gt; need nvm (node version manager)</li>
+</ul>
+<p>Strapi needs heavy reconfiguration =&gt; Pivoted to Decap</p>
+<p><em><strong><u>Decap installation need to put in .eleventy.js:</u></strong></em></p>
+<pre class="language-js"><code class="language-js">eleventyConfig<span class="token punctuation">.</span><span class="token function">addPassthroughCopy</span><span class="token punctuation">(</span><span class="token string">"./src/admin/"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p><strong>REMEMBER TO ADD &quot;<code>---</code>&quot; AT THE START OF FILE IN config.yml</strong></p>
