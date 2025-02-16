@@ -2,22 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nskien.xyz/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nskien.xyz/page-list/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nskien.xyz/tags/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nskien.xyz/thoughts/</loc>
     <lastmod>09-02-2025</lastmod>
   </url>
   
@@ -32,12 +17,22 @@
   </url>
   
   <url>
-    <loc>https://nskien.xyz/supersecretshit/</loc>
-    <lastmod>09-02-2025</lastmod>
+    <loc>https://nskien.xyz/posts/setup/</loc>
+    <lastmod>10-02-2025</lastmod>
   </url>
   
   <url>
-    <loc>https://nskien.xyz/posts/setup/</loc>
-    <lastmod>10-02-2025</lastmod>
+    <loc>https://nskien.xyz/supersecretshit/</loc>
+    <lastmod>16-02-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/</loc>
+    <lastmod>16-02-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/page-list/</loc>
+    <lastmod>16-02-2025</lastmod>
   </url>
 </urlset>

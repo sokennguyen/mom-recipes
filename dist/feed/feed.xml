@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>nskien.xyz</title>
+	<title>Cong Thuc Cua Thao</title>
 	<subtitle>Yellow</subtitle>
 	
 	<link href="https://nskien.xyz/feed/feed.xml" rel="self"/>
@@ -13,52 +13,11 @@
 	</author>
 	
 	<entry>
-		<title>A Distraction-free Setup</title>
+		<title>Test Recipe</title>
 		<link href="https://nskien.xyz/posts/setup/"/>
 		<updated>2025-02-10T00:00:00Z</updated>
 		<id>https://nskien.xyz/posts/setup/</id>
-		<content type="html">&lt;h2 id=&quot;distractions-are-the-enemy&quot;&gt;Distractions are the enemy &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#distractions-are-the-enemy&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;A computer&#39;s primary purpose is to ease the creation, storage, and transmission of information. Any other functionalities are distractions from this core purpose.&lt;br /&gt;
-Applications like video games, media playback, and social networking have emerged as distractions that divert attention away from a computer’s intended purpose.&lt;/p&gt;
-&lt;p&gt;I do believe that there is a place for computers to be entertainment machines.&lt;br /&gt;
-But entertainment machines and productive machines must not combined together as one.&lt;br /&gt;
-When I perform productive activities, the availability of entertainment alone is enough to distract me from the work.&lt;br /&gt;
-I usually don&#39;t have enough brain power to resist the temptation of entertainment, and relying on willpower everytime I open a computer to work is not sustainable.&lt;/p&gt;
-&lt;p&gt;When making productivity the only function available in a computer, I begin to treat it like how it&#39;s supposed to be, a tool.&lt;br /&gt;
-I open the computer when and only when I do my work.&lt;br /&gt;
-When using the work computer, I cannot do anything else outside of working on that computer.&lt;br /&gt;
-Work is the only thing I do on the computer not because I extract alot of willpower to do it, but because the computer doesn&#39;t have the distracting functionalities that pull me away from work.&lt;/p&gt;
-&lt;h2 id=&quot;the-sword&quot;&gt;The sword &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#the-sword&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;To support this idea, I’ve designed a setup dedicated only to document creation.&lt;br /&gt;
-This is the most minimal setup for text creation that I can come up with.&lt;br /&gt;
-Removing further the features of this setup will sacrifice aesthetic and convenieces.&lt;/p&gt;
-&lt;h3 id=&quot;kien&#39;s-text-creating-machine%3A&quot;&gt;Kien&#39;s Text Creating Machine: &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#kien&#39;s-text-creating-machine%3A&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Begin with a fresh Arch installation, either using the manual method or the archinstall script, then install:&lt;/p&gt;
-&lt;h4 id=&quot;display-server-(xorg)&quot;&gt;Display server (Xorg) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#display-server-(xorg)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;A display server is installed to allow graphical programs such as window managers and browsers to be displayed. Xorg can be installed as an option in the archinstall script.&lt;/p&gt;
-&lt;h4 id=&quot;window-manager-(dwm)&quot;&gt;Window manager (dwm) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#window-manager-(dwm)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;A window manager organizes your working windows and allow you to have multiple work spaces. With window managers, you can have dedicated worspaces for each of your work tasks. For example, in my setup, I have one workspace dedicated for text editing, and another workspace to display the rendered text document.&lt;/p&gt;
-&lt;h4 id=&quot;terminal-emulator-(st)&quot;&gt;Terminal Emulator (st) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#terminal-emulator-(st)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;A terminal emulator is installed to extend the capability of your termial UIs. With it, you can add into your terminal functions such as copy and paste from clipboard, scroll backs, color schemes or font resize. A note here is that you will usually have a narrower color scheme options in your text editor if you don&#39;t use a terminal emulator that allows a wider range of colors.&lt;/p&gt;
-&lt;h4 id=&quot;file-manager-(lf-or-ranger)&quot;&gt;File manager (lf or ranger) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#file-manager-(lf-or-ranger)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;To quickly navigate and preview your files. You can integrate images and document displayer into your file manager to preview files in your file manager. I reccomend &lt;code&gt;feh&lt;/code&gt; for image displaying and &lt;code&gt;zathura&lt;/code&gt; for document displaying.&lt;/p&gt;
-&lt;h4 id=&quot;text-editor-(neovim)&quot;&gt;Text editor (neovim) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#text-editor-(neovim)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;A text editor is your main program to create and edit your documents in. Through different text editors, you will have different shortcuts and bindings to navigate and edit your documents. I recommend nano as an easy-to-use text editor that requires no prior learning to get started. However, nano becomes limiting quickly, that&#39;s when I urge you to learn how to use Vim. Vim bindings will forever change the way you type, and it&#39;s worth every second to learn it. This is not an article about Vim, but I&#39;m allowing this section about Vim to be long to emphasise how much Vim bindings will make your text editing time more efficient and pleasant.&lt;/p&gt;
-&lt;p&gt;I use neovim, and extended version of vim, which allows me to install unique plugins that I find useful. Start with &lt;a href=&quot;https://github.com/nvim-lua/kickstart.nvim&quot;&gt;kickstart.nvim&lt;/a&gt;, then install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A clipboard copy backend (I installed &lt;code&gt;xclip&lt;/code&gt; with pacman)&lt;/li&gt;
-&lt;li&gt;A different color scheme. I settled with &lt;code&gt;onedark&lt;/code&gt;, a black color scheme to not get distracted by colors.&lt;/li&gt;
-&lt;li&gt;Tab complete. Enable it at the  &lt;code&gt;nvim.cmp&lt;/code&gt; section in &lt;code&gt;init.rc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Auto closing brackets (nvim)&lt;/li&gt;
-&lt;li&gt;Project view bindings with &lt;code&gt;vim.keymap&lt;/code&gt; &lt;code&gt;vim.cmd.Ex&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add language servers with &lt;code&gt;:Mason&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Relative line numbers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;browser-(firefox)&quot;&gt;Browser (firefox) &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#browser-(firefox)&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Depending on the type of document you&#39;re creating, you may or may not need a browser on your machine. Keep in mind that browsers can be a gateway for distractions to pour in. Firefox is the easiest browser to install, I got it through pacman.&lt;/p&gt;
-&lt;h2 id=&quot;who-is-this-setup-for&quot;&gt;Who is this setup for &lt;a class=&quot;direct-link&quot; href=&quot;https://nskien.xyz/posts/setup/#who-is-this-setup-for&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This setup is suitable for any types of text editing. Depending on your work, you would want to extend this setup with programs from your field of work, for example, Latex for complex document formatings, or compilers and git if you program software. If .docx or pdf is your primary document type, I reccommend writing and editing in Latex and export it into .docx/pdf with &lt;code&gt;pandoc&lt;/code&gt;. Spreadsheets can be done on the terminal UI too, with &lt;code&gt;sc&lt;/code&gt; or &lt;code&gt;oleo&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The main feature of this setup is that it’s built from a bare minimal operating system with no unnecessary applications. With only the essential programs for your work, distractions are nonexistent, leaving you with no choice but to focus or step away from the machine. A designated space to work is what this setup offers, and focus is what it will delivers. This setup embraces the &amp;quot;one device one job&amp;quot; philosophy, seperating the proverbial &amp;quot;TV&amp;quot; from the &amp;quot;textbooks&amp;quot;.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Test body&lt;/p&gt;
 </content>
 	</entry>
 </feed>
