@@ -16,5 +16,5 @@ links:
   * lòng trắng + 3mc đường: đánh = máy đến cứng.
 * Trộn đều từng muỗng lòng trắng vào thay bột yaourt.
 * Bật lò nóng sẵn 150°C, lửa trên dưới, không quạt, có khay nước ở đáy lò.
-* Lót giấy nướng, cho bột vào khay
-* Nước 30' khay sát lửa dưới
+* Lót giấy nướng, cho bột vào khay.
+* Nước 30' khay sát lửa dưới.
