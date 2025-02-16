@@ -14,7 +14,9 @@ templateClass: tmpl-post
 		Links for this recipe:
 		<ul>
 		{% for link in links %}
-			<a href="{{ link.url }}">{{ link.title }}</a>
+			<li>
+				<a href="{{ link.url }}">{{ link.title }}</a>
+			</li>
 		{% endfor %}
 		</ul>
 		</div>
