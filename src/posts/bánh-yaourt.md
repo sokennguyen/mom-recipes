@@ -5,6 +5,8 @@ tags:
 links:
   - url: https://youtu.be/dDh-6aX5AS4?t=84
     title: Cách bỏ bột vào khay
+  - title: Nguyên liệu
+    url: https://youtu.be/dDh-6aX5AS4?t=22
 ---
 * 3 trứng:
 
