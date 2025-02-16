@@ -2,6 +2,9 @@
 title: Bánh Yaourt
 tags:
   - post
+links:
+  - url: https://youtu.be/dDh-6aX5AS4?t=84
+    title: Cách bỏ bột vào khay
 ---
 * 3 trứng:
 
