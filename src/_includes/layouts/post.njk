@@ -7,9 +7,17 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 <hr>
-<ul>
-  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
+
+	{%- set links = links %}
+	{% if links %}
+		<div>
+		Links for this recipe:
+		<ul>
+		{% for link in links %}
+			<a href="{{ link.url }}">{{ link.title }}</a>
+		{% endfor %}
+		</ul>
+		</div>
+	{% else %}
+		<p>No links for this recipe.</p>
+	{% endif %}

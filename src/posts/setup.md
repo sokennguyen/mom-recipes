@@ -6,7 +6,7 @@ tags:
   - post
 content: test content
 links:
-  - title: test title
+  - title: test link
     url: https://example.com
 ---
 Test body
