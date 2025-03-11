@@ -27,11 +27,39 @@
 
 
     
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Search recipes..." class="search-input">
+</div>
+
 
 <ul reversed class="postlist" >
 
   <li class="postlist-item">
+    <a href="/posts/sốt-tươngà-giấm/" class="postlist-link">Sốt Tươngà + Giấm</a>
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/sốt-pạt-thái/" class="postlist-link">SỐT PẠT THÁI</a>
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/sốt-giấm/" class="postlist-link">Sốt Giấm</a>
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/sốt-cam/" class="postlist-link">Sốt Cam</a>
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/gà-sốt-pineapple/" class="postlist-link">Gà Sốt Pineapple</a>
+  </li>
+
+  <li class="postlist-item">
     <a href="/posts/bánh-yaourt/" class="postlist-link">Bánh Yaourt</a>
+  </li>
+
+  <li class="postlist-item">
+    <a href="/posts/bánh-cà-rốt/" class="postlist-link">Bánh Cà Rốt</a>
   </li>
 
   <li class="postlist-item">
@@ -40,6 +68,32 @@
 
 </ul>
 
+
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const postItems = document.querySelectorAll('.postlist-item');
+  
+  function normalizeText(text) {
+    return text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+      .replace(/[^a-z0-9\s]/g, ''); // Remove special characters except spaces
+  }
+  
+  searchInput.addEventListener('input', function(e) {
+    const searchTerm = normalizeText(e.target.value);
+    
+    postItems.forEach(item => {
+      const title = normalizeText(item.querySelector('.postlist-link').textContent);
+      if (title.includes(searchTerm)) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+</script>
 
 
 

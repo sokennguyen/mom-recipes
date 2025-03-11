@@ -2,42 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nskien.xyz/tags/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nskien.xyz/drafts/11ty/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nskien.xyz/now/</loc>
-    <lastmod>09-02-2025</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nskien.xyz/posts/setup/</loc>
     <lastmod>10-02-2025</lastmod>
   </url>
   
   <url>
-    <loc>https://nskien.xyz/supersecretshit/</loc>
-    <lastmod>16-02-2025</lastmod>
+    <loc>https://nskien.xyz/drafts/11ty/</loc>
+    <lastmod>11-03-2025</lastmod>
   </url>
   
   <url>
     <loc>https://nskien.xyz/</loc>
-    <lastmod>16-02-2025</lastmod>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/now/</loc>
+    <lastmod>11-03-2025</lastmod>
   </url>
   
   <url>
     <loc>https://nskien.xyz/page-list/</loc>
-    <lastmod>16-02-2025</lastmod>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/b%C3%A1nh-c%C3%A0-r%E1%BB%91t/</loc>
+    <lastmod>11-03-2025</lastmod>
   </url>
   
   <url>
     <loc>https://nskien.xyz/posts/b%C3%A1nh-yaourt/</loc>
-    <lastmod>16-02-2025</lastmod>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/g%C3%A0-s%E1%BB%91t-pineapple/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/s%E1%BB%91t-cam/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/s%E1%BB%91t-gi%E1%BA%A5m/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/s%E1%BB%91t-p%E1%BA%A1t-th%C3%A1i/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/posts/s%E1%BB%91t-t%C6%B0%C6%A1ng%C3%A0-gi%E1%BA%A5m/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/supersecretshit/</loc>
+    <lastmod>11-03-2025</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nskien.xyz/tags/</loc>
+    <lastmod>11-03-2025</lastmod>
   </url>
 </urlset>
